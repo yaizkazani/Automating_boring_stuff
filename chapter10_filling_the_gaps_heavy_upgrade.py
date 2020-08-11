@@ -6,7 +6,14 @@
 #
 # As an added challenge, write another program that can insert gaps into numbered files so that a new file can be added.
 # spam001.txt  // spam56.txt // 10spam.txt // spam00123spam.txt
-
+#
+# Generating files for test↓
+# folderpath = Path(r"C:\temp\testing")
+# for i in range(10):
+# 	filename1 = "1stpattern" + str(i).rjust(3, "0") + "file.txt"
+# 	filename2 = "2ndpattern___" + str(i).rjust(3, "0") + "file.txt"
+# 	Path.touch(Path.joinpath(folderpath, filename1))
+# 	Path.touch(Path.joinpath(folderpath, filename2))
 
 def name_parser(file_name):
 	"""
